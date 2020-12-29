@@ -1,5 +1,6 @@
 {
   "scripts": {
+  	"start": "node ./src/launch_app.js",
     "test": "jest"
   },
   "devDependencies": {

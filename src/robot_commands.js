@@ -94,7 +94,7 @@ const execute = (command, coordinate = null, direction = null) => {
     case command === 'REPORT':
       let result = coordinate[0] + ',' + coordinate[1] + ',' + directions.getDirectionName(direction);
       if (process.env.NODE_ENV !== 'test') {
-        console.log(`\nCurrent position of the toy robot: ${result}\n`);
+        console.log(`\nCurrent position of the toy robot: ${result}`);
         console.log('You can now type other commands below:\n');
       } else {
         return result;
