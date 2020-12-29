@@ -1,8 +1,9 @@
-#Toy Robot Simulator
+# Toy Robot Simulator
 
 Start program by running 'npm run start'
 
-# Tests require jest to run
+# Running tests
 
-To download jest run 'npm install --save-dev jest'
+Tests require jest to run - to download jest run 'npm install --save-dev jest'
+
 You can check the tests by running 'npm run test'
